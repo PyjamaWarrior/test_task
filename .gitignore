@@ -3,3 +3,4 @@ package-lock.json
 .idea
 .env
 .eslintrc.js
+.DS_Store
