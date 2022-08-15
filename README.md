@@ -23,5 +23,5 @@ npm start
 ## Run tests:
 
 ```sh
-npm run __test__
+npm run test
 ```
