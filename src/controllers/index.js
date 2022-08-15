@@ -1,3 +1,3 @@
 module.exports = {
-    testController: require('./test.controller'),
+    mathController: require('./math.controller'),
 };

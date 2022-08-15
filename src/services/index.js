@@ -1,3 +1,3 @@
 module.exports = {
-    testService: require('./test.service')
+    mathService: require('./math.service')
 };

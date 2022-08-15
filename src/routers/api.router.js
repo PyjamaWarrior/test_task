@@ -1,7 +1,7 @@
 const router = require('express').Router();
 
-const testRouter = require('./test.router');
+const mathRouter = require('./math.router');
 
-router.use('/get', testRouter);
+router.use('/get', mathRouter);
 
 module.exports = router;

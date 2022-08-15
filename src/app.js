@@ -13,14 +13,11 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use('/', apiRouter);
 app.use('*', (err, req, res, next) => {
-    const { customCode, message, status } = err;
+    const { message, status } = err;
 
     res
         .status(status || 500)
-        .json({
-            code: customCode || 0,
-            message
-        });
+        .json({ message });
 });
 
 app.listen(PORT, () => {
