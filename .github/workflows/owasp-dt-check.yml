@@ -27,7 +27,7 @@ jobs:
         with:
           url: 'http://54.84.92.101:8081'
           key: '${{ secrets.SECRET_OWASP_DT_KEY }}'
-          language: 'nodejs'
+          language: 'python'
       
       # Show the risk score output 
       - name: Get the output time
